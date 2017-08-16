@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 var pug = require('gulp-pug');
 var sass = require('gulp-sass');
+var inlineCss = require('gulp-inline-css');
 
 // Static server
 gulp.task('server', function() {
